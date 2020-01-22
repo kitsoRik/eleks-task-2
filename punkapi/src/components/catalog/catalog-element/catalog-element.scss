@@ -1,0 +1,58 @@
+.catalog-element {
+     background: white;
+
+     border: 2px solid black;
+     border-radius: 20px;
+
+     padding: 10px;
+     max-width: 1024px;
+     margin: 0 auto;
+}
+
+.photo-ingredients-container {
+
+     flex: 1;
+     display: flex;
+}
+
+.good-photo-wrapper {
+     width: 512px;
+     height: 512px;
+
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+}
+
+.good-photo {
+     max-width: 512px;
+     max-height: 512px;
+
+     margin: 10px;
+}
+
+.good-ingredients-container {
+     display: flex;
+     flex-direction: column;
+     margin-left: 10px;
+}
+
+.good-ingredients-title {
+     font: 34pt Arial;
+     margin-bottom: 10px;
+}
+
+.good-ingredient {
+     font: 24pt Arial;
+     text-decoration: underline;
+}
+
+.good-description {
+     font: 20pt Arial
+}
+
+@media screen and (max-width: 600px) {
+     .photo-ingredients-container {
+          flex-direction: column;
+     }
+}

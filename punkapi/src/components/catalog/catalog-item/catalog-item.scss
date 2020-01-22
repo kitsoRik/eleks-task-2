@@ -1,0 +1,28 @@
+$border: 2px solid black;
+
+.catalog-item {
+     background: white;
+     color: black;
+
+     padding: 5px 10px;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+     border-top: $border;
+
+     font: 25pt Arial;
+     text-decoration: none;
+}
+
+.catalog-item:first-child {
+     border-radius: 20px 20px 0 0;
+}
+
+.catalog-item:last-child {
+     border-radius: 0 0 20px 20px;
+     border-bottom: 2px solid black;
+}
+
+.catalog-item:hover {
+     background: black;
+     color: white;
+}

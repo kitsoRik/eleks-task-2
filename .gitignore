@@ -1,0 +1,7 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+punkapi/node_modules
+
+punkapi/build
+
+punkapi-server/node_modules
